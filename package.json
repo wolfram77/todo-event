@@ -1,0 +1,25 @@
+{
+  "name": "web-oplus",
+  "version": "0.0.0",
+  "description": "Web server for managing long-running events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfram77/web-oplus.git"
+  },
+  "keywords": [
+    "event",
+    "profile",
+    "positive",
+    "impact"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolfram77/web-oplus/issues"
+  },
+  "homepage": "https://github.com/wolfram77/web-oplus#readme"
+}
