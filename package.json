@@ -26,6 +26,7 @@
     "body-parser": "^1.15.1",
     "express": "^4.14.0",
     "milligram": "^1.1.0",
-    "moment": "^2.13.0"
+    "moment": "^2.13.0",
+    "normalize.css": "^4.1.1"
   }
 }
