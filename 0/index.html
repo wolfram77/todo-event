@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <head>
+	<script src="/mod/jquery/jquery-3.0.0.min.js"></script>
+	<script src="/mod/jquery-tagsinput/jquery.tagsinput.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 	<link rel="stylesheet" href="/mod/normalize.css/normalize.css">
 	<link rel="stylesheet" href="/mod/milligram/dist/milligram.min.css">
-	<title>oplus</title>
+	<link rel="stylesheet" href="/mod/jquery-tagsinput/jquery.tagsinput.min.css">
+	<link rel="stylesheet" href="/mod/index.css">
+	<link rel="icon" href="/favicon.ico">
+	<title>+impact</title>
 </head>
 <body>
-	<h1>HALO</h1>
+
+<header>
+<nav>
+	<big><a href="/">+impact</a></big>
+	<ul class="options">
+		<li><a href="">?</a></li>
+		<li><a href="">/people</a></li>
+		<li><a href="">/experience</a></li>
+	</ul>
+</nav>
+</header>
+
+
+<main>
+<section id="experience" class="container">
+	<h1>Create Experience</h1>
+	<code>mkdir /experience/&lt;name&gt;</code>
+	<br>
+	<br>
+	<form class="row">
+	<fieldset class="column column-50">
+		<label for="name">Name</label>
+		<input id="name" type="text" placeholder="What is it about?">
+		<label for="desc">Description</label>
+		<textarea id="desc" placeholder="What are your people going to learn and do?"></textarea>
+		<label for="start">Start Date</label>
+		<input id="start" type="date">
+		<label for="end">End Date</label>
+		<input id="end" type="date">
+		<label for="tags">Tags</label>
+		<input id="tags" type="text">
+	</fieldset>
+	<fieldset class="column column-50">
+		<label for="photo">Main Photo<br><img src="/img/experience/photo.png"></label>
+		<input id="photo" type="file">
+		<label for="facility">Facilities</label>
+		<input id="facility" type="text">
+		<label for="cost">Cost per Person</label>
+		<input id="cost" type="number">
+		<label for="size">Maximum People</label>
+		<input id="size" type="number">
+		<label for="filter">Filter</label>
+		<input id="filter" type="text">
+	</fieldset>
+	</form>
+	<input class="column column-100" type="submit">
+</section>
+</main>
+
+<footer>
+<p>
+	Designed with ♥ by <a href="https://github.com/wolfram77">Subhajit Sahu</a>.
+	Licensed under the <a href="https://github.com/0rez/web-plusimpact#license">MIT License</a>.
+</p>
+</footer>
+
 </body>
 </html>
